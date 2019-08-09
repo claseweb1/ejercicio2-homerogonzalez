@@ -1,16 +1,25 @@
-body {
-    font-family: background: black;
-    color: white;
-}
-
-.titulo {
-    color: blue;
-}
-
-.subtitulo {
-    color: red;
-}
-
-.imagen {
-    border-image:
-}
+    body {
+        color: white;
+        background-color: black;
+        font-family: 'Share Tech Mono', monospace;
+    }
+    
+    .titulo {
+        color: blue;
+    }
+    
+    .subtitulo {
+        color: red;
+    }
+    
+    .imagen {
+        border-radius: 100%;
+        display: block;
+        margin: auto;
+    }
+    
+    .caja {
+        border: darkorchid 2px solid;
+        border-radius: 20px;
+        padding: 10px;
+    }
